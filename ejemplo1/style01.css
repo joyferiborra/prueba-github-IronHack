@@ -1,0 +1,68 @@
+
+.alineaciones-H{
+  margin-left: 404px;
+  margin-right: 360px;
+  text-align: left;
+}
+.linkeo {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  color: #2c3643;
+}
+
+.linkeo:hover{
+  background-color: #f0f0f0;
+  color: #2c3643;
+}
+h1,h2,h3,h4{
+  font-family: sans-serif;
+
+}
+
+p,li,ol,ul{
+  font-family: times: serif;
+  margin-left: 404px;
+  margin-right: 360px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  font-kerning: -1px;
+  color: #2c3643;
+
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 42px;
+  font-kerning: 0px;
+  color: #2c3643;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  font-kerning: 0px;
+  color: #2c3643;
+
+}
+
+p{
+  font-size:20px;
+  font-weight: 300;
+  line-height: 36px;
+  font-kerning: 0px;
+  color: #2c3643;
+
+}
+img{
+margin-left: 187px;
+margin-right: 186px;
+ width: 1070px;
+
+}

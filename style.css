@@ -1,0 +1,45 @@
+.wrapper{
+  background-image: url("./img/ladrillo.jpg");
+  width: 100vW;
+  display:flex;
+  justify-content: center;
+}
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+
+}
+
+.item{
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  border: 2px solid darkgreen;
+  margin: 20px;
+  background-size: cover;
+}
+.mario{
+  background-image: url("./img/mario.jpg");
+  -webkit-transform: rotate(30deg);
+  transform:rotate(30deg);
+
+}
+.luigi{
+  background-image: url("./img/luigi.jpg");
+}
+.peach{
+  background-image: url("./img/peach.jpeg");
+}
+.yoshi{
+  background-image: url("./img/yoshi.jpeg");
+}
+@media (max-width: 500px) {
+
+  html
+    .item {
+      flex: 0 1 100%;
+      background-position: 0 20%;
+    }
+  }
+}
